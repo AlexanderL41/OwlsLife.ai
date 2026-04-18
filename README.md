@@ -25,8 +25,6 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-3. (Optional) Set your OpenAI-compatible API key to get real model responses. If omitted, the server returns a mock response so the UI is functional.
-
 ```bash
 export OPENAI_API_KEY="sk_your_key_here"
 # Optional: set a custom base URL
@@ -49,7 +47,3 @@ Notes
 - The server uses an environment variable for the API key instead of embedding secrets in code.
 - For production use, run behind a WSGI server (gunicorn/uvicorn) and add authentication/CORS as needed.
 
-If you'd like, I can:
-- Add per-session conversation memory (session cookie) so the assistant can keep context.
-- Add a small automated sanity test that POSTs to `/chat` and asserts a reply.
-- Tweak the UI branding (fonts, icons) or export a single-file HTML demo.
