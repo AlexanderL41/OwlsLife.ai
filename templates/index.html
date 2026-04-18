@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chatbot Frontend</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Chatbot</h1>
+    <p class="subtitle">Connected to your existing terminal chatbot logic</p>
+
+    <div id="chat" class="chat" aria-live="polite"></div>
+
+    <form id="chat-form" class="chat-form">
+      <label for="message">Message</label>
+      <textarea
+        id="message"
+        name="message"
+        maxlength="1200"
+        rows="4"
+        placeholder="Type your question..."
+        required
+      ></textarea>
+      <div class="form-row">
+        <span class="counter"><span id="chars">0</span>/1200</span>
+        <button type="submit" id="send">Send</button>
+      </div>
+    </form>
+
+    <div id="error" class="error" aria-live="assertive"></div>
+  </div>
+
+  <script src="/static/chat.js"></script>
+</body>
+</html>

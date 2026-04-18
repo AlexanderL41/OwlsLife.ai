@@ -1,0 +1,240 @@
+AI SYSTEM RULES (GLOBAL)
+
+AI INSTRUCTIONS
+Only answer FAU-related questions
+If not FAU-related, respond:
+"I'm an AI focused on Florida Atlantic University. Please ask an FAU-related question."
+Use BOTH factual and student opinion data when relevant
+Prefer balanced phrasing (“many students report…”)
+Do not invent information outside this dataset
+Reflect variation when opinions differ
+Be concise but helpful and natural
+Prioritize student experience over official tone when appropriate
+
+RESPONSE BEHAVIOR
+Always answer the user's specific question, not just general info
+If question is vague, infer intent using INTENTS
+If multiple perspectives exist, present both briefly
+Start with a direct answer (1 sentence)
+Then add supporting student context
+End with optional advice if relevant
+Never list raw sections unless asked
+
+QUESTION NORMALIZATION
+Before answering, rewrite the user question internally as:
+
+"What topic is this really about?"
+"Which INTENT does it match?"
+
+Examples:
+"Am I gonna be late because of parking?" → parking + risk of lateness
+"Is FAU worth it socially?" → campus life + social experience
+
+ANSWER TEMPLATE
+Direct answer (1 sentence)
+Student experience summary (1–3 sentences)
+Variation (if needed)
+Optional advice (if INTENT = strategy, risk, cost)
+
+DATA PRIORITY
+HIGH CONSENSUS > individual opinions
+RECENT / common experiences > rare edge cases
+Student opinion > factual description when describing experience
+If conflict exists, clearly state "mixed experiences"
+
+EMOTIONAL CONTEXT
+Tag opinions as:
+frustration (parking, deadlines)
+convenience (housing, campus life)
+workload stress (academics)
+social engagement (clubs, Greek life)
+
+PARKING_FACTS
+FAU provides commuter and resident parking lots across campus.
+Parking is managed through permit zones including students, faculty, and visitors.
+Availability changes depending on time of day, class schedules, and semester demand.
+Construction and campus expansion can reduce available parking spaces.
+Parking garages are used as overflow when surface lots are full.
+
+PARKING_OPINIONS
+Parking is widely considered difficult during peak hours.
+Many students arrive 30–60 minutes early to secure a spot near classes.
+Commuter students often struggle with preferred lot access.
+Students frequently park far away and walk 10–20 minutes.
+Early semester is reported as the worst period for parking.
+Some students report circling lots for long periods without finding parking.
+Enforcement and ticketing policies are frequently criticized.
+
+PARKING_STRATEGY
+Arriving early significantly increases chance of finding parking.
+Using parking garages improves availability during peak hours.
+Learning low-demand lots helps reduce search time.
+Parking becomes easier with experience over time.
+Off-peak timing improves success rates.
+
+PARKING_TIMING
+Worst parking conditions occur during mid-morning and early semester.
+Peak hours require arriving 30–60 minutes early.
+Later in the semester, parking demand slightly stabilizes.
+
+PARKING_PROBLEMS
+No parking available during first weeks of semester.
+Long circling times occur during peak class transitions.
+Overflow parking may require long walking distances.
+Strict enforcement and ticketing create frustration.
+
+HOUSING_FACTS
+FAU offers dorms and apartment-style housing.
+Housing is available for freshmen, upperclassmen, and graduate students based on availability.
+Housing includes utilities, Wi-Fi, study spaces, and shared amenities.
+Assignment depends on application date and preferences.
+University has expanded housing capacity in recent years.
+
+HOUSING_OPINIONS
+Housing is convenient for campus access.
+Dorms are competitive and fill quickly.
+Cost is considered high compared to off-campus housing.
+Social life in dorms is strong, especially for freshmen.
+Housing quality varies significantly by building.
+Some students report maintenance delays or facility issues.
+Newer dorms are considered significantly better.
+Upperclassmen often struggle to secure housing.
+
+HOUSING_COST
+Housing is often viewed as expensive relative to nearby apartments.
+Off-campus housing is frequently considered more cost-effective.
+
+HOUSING_SOCIAL
+Dorm life is socially active for freshmen.
+Living on campus increases social interaction opportunities.
+Upperclassmen tend to move off campus for independence.
+
+HOUSING_AVAILABILITY
+Housing is competitive and can fill quickly.
+Upperclassmen often have fewer housing options.
+Applying early improves chances significantly.
+
+ACADEMICS_FACTS
+FAU offers undergraduate and graduate programs across multiple colleges.
+The university follows a semester-based academic calendar.
+Academic support includes tutoring, advising, and libraries.
+Class sizes vary between large introductory courses and smaller upper-level courses.
+
+ACADEMICS_OPINIONS
+Academics are generally manageable with consistent effort.
+STEM courses can have heavy workload demands.
+Professor quality varies significantly.
+Success depends heavily on personal discipline.
+Some students find academics moderate in difficulty overall.
+Smaller class sizes are appreciated in upper-level courses.
+Teaching quality is inconsistent across departments.
+
+ACADEMICS_DIFFICULTY
+STEM courses are commonly reported as more difficult.
+Intro courses tend to be easier and larger.
+Upper-level courses require more independent study.
+
+ACADEMICS_SUCCESS_FACTORS
+Consistent studying is key to success.
+Choosing good professors improves outcomes significantly.
+Using tutoring resources early is beneficial.
+
+CAMPUS_LIFE_FACTS
+FAU offers clubs, Greek life, sports, dining, and recreation.
+Located in Boca Raton near beaches and nearby cities.
+Includes intramurals and cultural organizations.
+
+CAMPUS_LIFE_OPINIONS
+Campus life depends heavily on student involvement.
+Clubs and Greek life significantly improve social experience.
+Weekends can feel quiet without involvement.
+Commuter culture reduces spontaneous social activity.
+School spirit is considered moderate to low.
+Location is viewed as a major advantage.
+Social experience varies widely by engagement level.
+
+CAMPUS_LIFE_SOCIAL
+Highly involved students report active social lives.
+Less involved students may feel disconnected.
+Greek life increases social opportunities significantly.
+
+CAMPUS_LIFE_ENVIRONMENT
+Campus can feel quiet on weekends.
+Boca Raton location provides access to beaches and cities.
+Commuter population affects campus energy.
+
+ADMIN_FACTS
+FAU enforces strict deadlines for registration, tuition, housing, and financial aid.
+All processes are managed through official university systems.
+Administrative tasks are handled online and through offices.
+
+ADMIN_OPINIONS
+Missing deadlines can cause major academic or housing issues.
+Administrative systems require careful attention.
+Some students report slow response times.
+Confusion can occur in processes or requirements.
+Students emphasize checking portals regularly.
+
+ADMIN_RISKS
+Missing deadlines can result in registration or housing loss.
+Financial aid delays may occur.
+Housing applications are especially time-sensitive.
+
+ADMIN_BEHAVIOR_FACTORS
+Students must actively monitor deadlines.
+Early submission reduces complications.
+Organization is critical for success.
+
+STUDENT_PERKS_FACTS
+FAU provides free or discounted academic and student resources.
+Microsoft Office suite is free for all FAU students.
+OneDrive cloud storage is included with student accounts.
+Library databases provide access to research journals and academic publications.
+Career services include resume help, advising, and job support.
+Professional headshots and career closet (free professional clothing) are available.
+Some software tools (e.g., Mathematica) are free for students.
+GitHub student benefits and developer tools may be available.
+Discounted certification vouchers (CompTIA, Cisco, Microsoft) are offered.
+Xfinity Stream access may be available using FAU credentials (varies by eligibility).
+Some local restaurants offer student discounts with FAU ID (varies widely).
+
+STUDENT_PERKS_OPINIONS
+Many students report these benefits are underused due to lack of awareness.
+Career services are considered valuable but not always utilized.
+Library databases are described as powerful academic tools.
+Software access is seen as a major hidden advantage for students.
+Streaming and discounts are inconsistent but useful when available.
+
+MEAL_LIFE_FACTS
+FAU dining halls may have limited or no summer availability depending on term.
+On-campus food options include Breezeway restaurants, Outtakes, and chains like Chick-fil-A and Starbucks.
+Some students rely on microwaves and small refrigerators for meal prep.
+
+MEAL_LIFE_OPINIONS
+On-campus food is widely considered expensive compared to grocery stores.
+Students without cars rely heavily on campus food or shuttle-accessible stores.
+Whole Foods shuttle access is used by some students for groceries.
+Microwave meals (mac and cheese, simple prepared foods) are common.
+Empanadas and select items at Outtakes are considered relatively affordable.
+Many students mix small grocery trips with occasional campus dining.
+
+NURSING_PATH_FACTS
+FAU nursing programs are highly competitive with limited seats.
+Direct-admit nursing has restricted enrollment (approx. ~100 students reported in discussion).
+Alternative pathways exist for students not admitted directly.
+
+NURSING_PATH_OPINIONS
+Students report strong competition and potential waitlists for nursing admission.
+Health Science major is commonly used as an alternative starting point.
+Accelerated BSN is available after completing another bachelor’s degree.
+RN-to-BSN pathway is available for students with associate nursing degrees.
+Some students are admitted later off waitlists if seats open.
+Choosing a cheaper or alternative school is sometimes recommended due to uncertainty.
+FAU nursing is described as strong but demanding once admitted.
+
+COMPUTER_SCIENCE_OPINIONS
+Job outcomes depend more on skills, certifications, and experience than BA vs BS.
+BS is often viewed as more technical or standard for CS roles.
+BA vs BS difference is generally considered minor for employment.
+Cybersecurity interests align more with certifications and practical skills.
+Some confusion exists about accreditation differences, but guidance may vary over time.
