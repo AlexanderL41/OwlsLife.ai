@@ -1,6 +1,6 @@
 # FAU Chatbot (Frontend + Simple Flask backend)
 
-This project contains a minimal frontend and a small Flask backend to demonstrate a chat UI with a 1200-character input limit and Florida Atlantic University-inspired colors.
+This project contains a minimal frontend and a small Flask backend to demonstrate a FAU chat UI with a 1200-character input limit and university inspired colors.
 
 Files of interest
 
