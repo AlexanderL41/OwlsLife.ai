@@ -33,7 +33,7 @@ load_dotenv(PROJECT_ROOT / "api.env")
 # Ollama configuration: local Ollama server will be used for generation.
 OLLAMA_HOST = os.getenv("OLLAMA_HOST", "localhost").strip()
 OLLAMA_PORT = int(os.getenv("OLLAMA_PORT", "11434"))
-OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "mistral").strip()
+OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "llama3").strip()
 
 # Allow running the backend without contacting Ollama (offline/local fallback)
 USE_OLLAMA = os.getenv("USE_OLLAMA", "true").strip().lower() in ("1", "true", "yes")
@@ -212,7 +212,7 @@ def get_context(question):
         title = doc.metadata.get("source", "FAU knowledge base") if doc.metadata else "FAU knowledge base"
         sources.append({"title": title, "excerpt": excerpt})
 
-    return "", []
+    return context, sources
 
 
 def build_local_fallback_answer(question, context, sources):
