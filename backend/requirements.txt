@@ -1,0 +1,6 @@
+Flask
+python-dotenv
+langchain
+langchain-huggingface
+langchain-community
+requests

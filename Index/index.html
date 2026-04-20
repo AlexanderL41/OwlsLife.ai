@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAU Assistant</title>
+    <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>FAU Assistant</h1>
+            <p class="lead">Ask about Florida Atlantic University: student life, campus services, and important student information.</p>
+
+            <div class="qa">
+                <textarea id="question" rows="6" maxlength="1200" placeholder="Ask a question about FAU (e.g., Where is student housing?)"></textarea>
+                <button id="ask" type="button">Ask</button>
+            </div>
+            <p id="question-count" class="question-count">0 / 1200</p>
+
+            <div id="results" class="results"></div>
+
+            <div id="feedback-panel" class="feedback-panel feedback-corner minimized">
+                <button id="feedback-toggle" class="feedback-toggle" type="button" aria-expanded="false">Give Feedback</button>
+                <div id="feedback-content" class="feedback-content hidden">
+                    <p id="feedback-title" class="feedback-title">Optional feedback</p>
+                    <textarea id="feedback-text" rows="3" maxlength="600" placeholder="Tell us what happened so we can improve this."></textarea>
+                    <div class="feedback-actions">
+                        <button id="send-feedback" type="button">Send Feedback</button>
+                        <span id="feedback-status" class="feedback-status"></span>
+                    </div>
+                </div>
+            </div>
+
+            <p class="note">Prototype: answers are retrieved from the local FAU dataset.</p>
+        </div>
+
+    <script src="../js/script.js"></script>
+    </body>
+</html>

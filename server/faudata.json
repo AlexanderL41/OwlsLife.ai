@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1",
+    "title": "FAU Main Campus",
+    "text": "Florida Atlantic University's main campus is in Boca Raton, Florida. The address is 777 Glades Road, Boca Raton, FL. Key campus services include the Student Affairs office, Registrar, and the Health Center.",
+    "topic": "campus-info",
+    "sourceType": "official",
+    "sourceName": "Florida Atlantic University",
+    "sourceUrl": "",
+    "campus": "Boca Raton",
+    "updatedAt": "2026-04-18T00:00:00Z",
+    "tags": [
+      "campus",
+      "boca-raton",
+      "student-services"
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Housing and Residence Life",
+    "text": "FAU offers on-campus housing options including residence halls and apartment-style living. The Housing & Residence Life office helps with assignments, roommate matching, and housing policies. Freshmen are encouraged to apply early.",
+    "topic": "housing",
+    "sourceType": "official",
+    "sourceName": "FAU Housing & Residence Life",
+    "sourceUrl": "",
+    "campus": "Boca Raton",
+    "updatedAt": "2026-04-18T00:00:00Z",
+    "tags": [
+      "housing",
+      "residence-life",
+      "freshmen"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Student Health Services",
+    "text": "Student Health Services provides primary care, counseling referrals, and immunization records. Contact the Health Center to schedule appointments and find out about available insurance options.",
+    "topic": "health",
+    "sourceType": "official",
+    "sourceName": "FAU Student Health Services",
+    "sourceUrl": "",
+    "campus": "Boca Raton",
+    "updatedAt": "2026-04-18T00:00:00Z",
+    "tags": [
+      "health",
+      "appointments",
+      "immunization"
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Academic Calendar",
+    "text": "FAU's academic calendar lists semester start/end dates, breaks, and important registration deadlines. Students should check the official FAU calendar for add/drop deadlines and exam dates.",
+    "topic": "academics",
+    "sourceType": "official",
+    "sourceName": "Florida Atlantic University",
+    "sourceUrl": "",
+    "campus": "All Campuses",
+    "updatedAt": "2026-04-18T00:00:00Z",
+    "tags": [
+      "academic-calendar",
+      "registration",
+      "deadlines"
+    ]
+  },
+  {
+    "id": "5",
+    "title": "Student Organizations",
+    "text": "FAU supports many student organizations across interests including academic clubs, cultural groups, and recreational clubs. The Student Involvement office manages club registration and campus events.",
+    "topic": "campus-life",
+    "sourceType": "official",
+    "sourceName": "FAU Student Involvement",
+    "sourceUrl": "",
+    "campus": "Boca Raton",
+    "updatedAt": "2026-04-18T00:00:00Z",
+    "tags": [
+      "student-organizations",
+      "clubs",
+      "campus-events"
+    ]
+  }
+]

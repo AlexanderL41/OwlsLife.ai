@@ -1,0 +1,23 @@
+[
+  {
+    "timestamp": "2026-04-18T19:23:57.967181+00:00",
+    "question": "how is housing at Fau",
+    "error": "",
+    "feedback": "hi",
+    "client": "web"
+  },
+  {
+    "timestamp": "2026-04-19T00:46:31.911127+00:00",
+    "question": "how are the professors at fau",
+    "error": "",
+    "feedback": "this is trash",
+    "client": "web"
+  },
+  {
+    "timestamp": "2026-04-19T00:46:38.743679+00:00",
+    "question": "how are the professors at fau",
+    "error": "",
+    "feedback": "trash",
+    "client": "web"
+  }
+]
